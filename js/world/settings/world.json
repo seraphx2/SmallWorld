@@ -1,3 +1,10 @@
 {
-    "test": "test"
+    "dimensions": {
+        "x": 192,
+        "y": 108
+    },
+    "base_tiles": [
+        {"water": ".25"},
+        {"land": ".75"}
+    ]
 }

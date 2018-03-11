@@ -1,5 +1,5 @@
 function world(value) {
-    var v = value;
+    var settings = defaultSettings;
 
     var _ = {};
 

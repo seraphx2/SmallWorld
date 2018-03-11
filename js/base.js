@@ -4,6 +4,5 @@ window.onload = function () {
 
     //timeout (500)
     //    world.update
-    //    worl.draw
-    ///test
+    //    world.draw
 }

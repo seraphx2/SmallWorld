@@ -4,7 +4,25 @@
         "y": 108
     },
     "base_tiles": [
-        {"water": ".25"},
-        {"land": ".75"}
+        {
+            "water":
+            {
+                "probability": "0",
+                "traversed_by": [
+                    "aquatic",
+                    "amphibian"
+                ]
+            }
+        },
+        {
+            "land":
+            {
+                "probability": "1",
+                "traversed_by": [
+                    "terrestrial",
+                    "amphibian"
+                ]
+            }
+        }
     ]
 }
